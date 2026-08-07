@@ -1,6 +1,6 @@
 <div align="center">
     <a href="https://github.com/MarSeventh/CloudFlare-ImgBed"><img width="80%" alt="logo" src="readme/banner.png" /></a>
-    <p><em>🗂️ An open-source file hosting solution for Docker and serverless environments, with multiple storage backends, a RESTful API, and WebDAV support.</em></p>
+    <p><em>🗂️ Beyond image hosting: an all-in-one, open-source file management hub.</em></p>
     <p>
         <a href="https://github.com/MarSeventh/CloudFlare-ImgBed/blob/main/README_zh.md">简体中文</a> | <a href="https://github.com/MarSeventh/CloudFlare-ImgBed/blob/main/README.md">English</a> | <a href="https://cfbed.sanyue.de/en">Official Website</a>
     </p>
@@ -28,11 +28,45 @@
 
 # 1. 💡 Introduction
 
-CloudFlare ImgBed is an open-source file hosting solution that supports both Docker and serverless deployments, with multiple backend storage options, including **Telegram**, **Discord**, **Cloudflare R2**, **S3-compatible storage**, **Hugging Face**, **WebDAV**, and more.
-
-It provides essential features covering the entire file lifecycle—including **uploading**, **managing**, **reading**, and **deleting**—along with **authentication**, **directory organization**, **content moderation**, and **random images**. With a comprehensive RESTful API and WebDAV support, it is well suited for self-hosted image hosting, static site asset management, and lightweight file distribution. See the [feature documentation](https://cfbed.sanyue.de/en/guide/features.html) for details.
+CloudFlare ImgBed is a self-hosted image and file hosting solution for Docker and serverless environments, bringing **Telegram**, **Discord**, **Cloudflare R2**, **S3-compatible storage**, **Hugging Face**, **WebDAV**, and more into one management interface. It provides file management, authentication, directory organization, content moderation, a RESTful API, and WebDAV for personal image hosting, website asset management, and lightweight file distribution. **[View all features →](https://cfbed.sanyue.de/en/guide/features.html)**
 
 ![CloudFlare](readme/海报.png)
+
+## 🤝 Partners
+
+<table width="100%">
+  <tr>
+    <td align="center" width="20%">
+      <strong><a href="https://www.cloudflare.com/">Cloudflare</a></strong>
+    </td>
+    <td align="center" width="20%">
+      <strong><a href="https://edgeone.ai/?from=github">EdgeOne</a></strong>
+    </td>
+    <td align="center" width="20%">
+      <strong><a href="https://www.hncloud.com/activity/activity_2026summer.html?k=MarSeventh">HuaNa Cloud</a></strong>
+    </td>
+    <td align="center" width="20%">
+      <strong><a href="https://www.svyun.com/recommend/AELZ0UeMz8K11Zg7pEXC">SuWei Cloud</a></strong>
+    </td>
+    <td align="center" width="20%">
+      <strong><a href="https://linux.do/t/topic/2578561">Linux DO</a></strong>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://www.cloudflare.com/"><img src="readme/cloudflare-logo.png" alt="Cloudflare logo" height="25"></a></td>
+    <td align="center"><a href="https://edgeone.ai/?from=github"><img src="readme/edgeone-logo.png" alt="EdgeOne logo" height="25"></a></td>
+    <td align="center"><a href="https://www.hncloud.com/activity/activity_2026summer.html?k=MarSeventh"><img src="readme/hncloud-logo.png" alt="HuaNa Cloud logo" height="25"></a></td>
+    <td align="center"><a href="https://www.svyun.com/recommend/AELZ0UeMz8K11Zg7pEXC"><img src="readme/svyun-logo.png" alt="SuWei Cloud logo" height="25"></a></td>
+    <td align="center"><a href="https://linux.do/t/topic/2578561"><img src="readme/linuxdo-logo.png" alt="Linux DO logo" height="25"></a></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Provides CDN acceleration and security protection</sub></td>
+    <td align="center"><sub>Provides CDN acceleration and security protection</sub></td>
+    <td align="center"><sub>Provides stable and high-quality cloud computing resources</sub></td>
+    <td align="center"><sub>Provides stable and high-quality cloud computing resources</sub></td>
+    <td align="center"><sub>Provides community support</sub></td>
+  </tr>
+</table>
 
 # 2. 🖥️ Demo
 
@@ -103,7 +137,7 @@ An open-source ecosystem grows through community support. Visit the [CloudFlare 
 
 Discover useful plugins, applications, and tutorials, or share your own work with the community. See the [Ecosystem Call for Contributions](https://github.com/MarSeventh/CloudFlare-ImgBed/discussions/606) for submission guidelines. We look forward to your participation!
 
-# 5. 💝 Support & Partners
+# 5. 💝 Support & Sponsors
 
 ## ☕ Support the Project
 
@@ -121,16 +155,6 @@ Thank you to every sponsor who supports this project! Your support helps sustain
 
 [![Sponsors](https://afdian-sponsors.sanyue.de/image?columns=12)](https://afdian.com/a/marseventh)
 
-## 🤝 Partners
-
-- **[Cloudflare](https://www.cloudflare.com/) & [EdgeOne](https://edgeone.ai/?from=github)**: CDN acceleration and security protection
-
-  <a href="https://www.cloudflare.com/"><img src="readme/cloudflare-logo.png" alt="Cloudflare Logo" height="25"></a> <a href="https://edgeone.ai/?from=github"><img src="readme/edgeone-logo.png" alt="EdgeOne Logo" height="25"></a>
-
-- **[Svyun](https://www.svyun.com/recommend/AELZ0UeMz8K11Zg7pEXC)**: Cloud computing resources
-
-- **[Linux DO](https://linux.do/)**: Community support
-
 # 6. 👥 Community
 
 ## 🧑‍💻 Contributors
@@ -143,11 +167,11 @@ Thank you to everyone who has contributed code, documentation, ideas, and feedba
 
 **If you find the project useful, please consider giving it a Star ⭐. Thank you for your support!**
 
-<a href="https://www.star-history.com/?repos=MarSeventh%2FCloudFlare-ImgBed%2CMarSeventh%2FSanyue-ImgHub&type=date&legend=top-left">
+<a href="https://github.com/MarSeventh/CloudFlare-ImgBed">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MarSeventh/CloudFlare-ImgBed%2CMarSeventh/Sanyue-ImgHub&type=date&theme=dark&legend=top-left&sealed_token=sAw_e7kRryMASKC9b3AqORk8leSZgKYTuCvYqOzqsyOmTse-00LgwOS4FtG75lHuCuxsyd-TPlyV3BieLloGaM-3M2AlLeQt2g1_Kczjm0UZdqnvVKRCR2J9oqdE0_XEKFMmOMLG_Loz8Bz3-JPKwiMyTjKM0LRRLm2TjGA73QSrTuOsRAqwj6F7LAVf" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=MarSeventh/CloudFlare-ImgBed%2CMarSeventh/Sanyue-ImgHub&type=date&legend=top-left&sealed_token=sAw_e7kRryMASKC9b3AqORk8leSZgKYTuCvYqOzqsyOmTse-00LgwOS4FtG75lHuCuxsyd-TPlyV3BieLloGaM-3M2AlLeQt2g1_Kczjm0UZdqnvVKRCR2J9oqdE0_XEKFMmOMLG_Loz8Bz3-JPKwiMyTjKM0LRRLm2TjGA73QSrTuOsRAqwj6F7LAVf" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=MarSeventh/CloudFlare-ImgBed%2CMarSeventh/Sanyue-ImgHub&type=date&legend=top-left&sealed_token=sAw_e7kRryMASKC9b3AqORk8leSZgKYTuCvYqOzqsyOmTse-00LgwOS4FtG75lHuCuxsyd-TPlyV3BieLloGaM-3M2AlLeQt2g1_Kczjm0UZdqnvVKRCR2J9oqdE0_XEKFMmOMLG_Loz8Bz3-JPKwiMyTjKM0LRRLm2TjGA73QSrTuOsRAqwj6F7LAVf" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://marseventh.github.io/CloudFlare-ImgBed/star-history-dark.svg" />
+   <source media="(prefers-color-scheme: light)" srcset="https://marseventh.github.io/CloudFlare-ImgBed/star-history-light.svg" />
+   <img alt="Star-History" src="https://marseventh.github.io/CloudFlare-ImgBed/star-history-light.svg" />
  </picture>
 </a>
 
